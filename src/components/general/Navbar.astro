@@ -62,18 +62,18 @@ import { createLogo } from "@utils";
   window.localStorage.setItem("theme", theme);
 
   const darkModeHandler = () => {
-    if (isDark) {
-      document.documentElement.setAttribute("data-theme", "dark");
-      localStorage.theme = "dark";
-      isDark = false;
-      themeButton.innerHTML = sun;
-      browserTheme.content = "#111111";
-    } else {
+    if(!isDark) {
       document.documentElement.setAttribute("data-theme", "light");
       localStorage.theme = "light";
       isDark = true;
       themeButton.innerHTML = moon;
       browserTheme.content = "#FFFFFF";
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      localStorage.theme = "dark";
+      isDark = false;
+      themeButton.innerHTML = sun;
+      browserTheme.content = "#111111";
     }
   };
 
