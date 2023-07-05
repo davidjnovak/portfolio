@@ -1,27 +1,26 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "David Novak",
-  jobDescription: "Web Developer",
-  about: `I'm a programmer with a strong interest in data analysis and web frameworks. With a background in computer science and over three years of professional coding experience, I thrive on leveraging technology to solve complex problems.
-
-I love diving into data, extracting meaningful insights, and uncovering patterns that drive informed decision-making.
-I enjoy working with web frameworks to build robust and scalable applications, bringing ideas to life in the digital space.`,
+  jobDescription: "Software Engineer",
+  about: `
+  I'm a programmer with a strong interest in data analysis and web frameworks. 
+  With a background in computer science and over three years of professional coding experience, I have a passion for leveraging technology to solve complex problems.
+  A few facts about me: I come from a family of seven, love surfing, and speak fluent Spanish.`,
 
   experience: [
     {
-      name: "nCino",
+      name: "nCino - SWE Intern",
       location: "Wilmington, NC",
       startDate: "AUG 2022",
       endDate: "PRESENT",
       description: [
-        " - Collaborate with AI Platform Agile team",
-        " - Complete tech tasks and tickets to achieve sprint goals",
         " - Build infrastructure to store and execute ML models with AWS",
         " - Design and maintain client-facing Salesforce site",
+        " - Collaborate with AI Platform Agile team",
       ],
     },
     {
-      name: "Innovative Financial Group",
+      name: "Innovative Financial Group - Web Developer",
       location: "Wilmington, NC",
       startDate: "SEP 2021",
       endDate: "JAN 2022",
@@ -32,7 +31,7 @@ I enjoy working with web frameworks to build robust and scalable applications, b
       ],
     },
     {
-      name: "UNC Wilmington",
+      name: "UNC Wilmington - Deep Learning Researcher",
       location: "",
       startDate: "FEB 2021",
       endDate: "JUN 2021",
@@ -68,11 +67,22 @@ I enjoy working with web frameworks to build robust and scalable applications, b
         " - Mobile App Development (ENG)",
       ],
     },
+    {
+      name: "Cape Fear Academy",
+      location: "Wilmington, North Carolina",
+      startDate: "AUG 2017",
+      endDate: "JUN 2020",
+      description: [
+        " - SAT: 1480 (~98th percentile)",
+        " - 2019-20 Coastal Rivers Conference Male Scholar Athlete",
+        " - Captain of Varsity Tennis and Sailing Teams",
+      ],
+    },
   ],
 
   socialMedia: {
     github: "https://github.com/davidjnovak",
-    email: "davidnovak01@gmail.com",
+    email: "mailto:davidnovak01@gmail.com",
     linkedin: "https://www.linkedin.com/in/david-novak-664970209/",
   },
 
@@ -80,15 +90,15 @@ I enjoy working with web frameworks to build robust and scalable applications, b
     {
       title: "uTawk",
       isFeatured: true,
-      thumbnail: "/assets/images/.png", // Replace with the path to your project thumbnail image
-      githubUrl: "https://github.com/davidjnovak/utawk", // Replace "your-username" with your GitHub username and "astro-portfolio" with your project repository name
+      thumbnail: "/assets/images/utawkscreenshot.png", 
+      githubUrl: "https://github.com/davidjnovak/utawk", 
       liveUrl: "https://utawk.net",
     },
     {
       title: "kwerty",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png", // Replace with the path to your project thumbnail image
-      githubUrl: "https://github.com/davidjnovak/kwerty", // Replace "your-username" with your GitHub username and "astro-portfolio" with your project repository name
+      thumbnail: "/assets/images/kwerty.png",
+      githubUrl: "https://github.com/davidjnovak/kwerty",
       liveUrl: "https://kwerty.app",
     },
   ],
